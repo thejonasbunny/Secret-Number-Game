@@ -37,8 +37,9 @@ function checkGuessNumberinator() {
     var guessedNumber = document.querySelector("input").value;
     fieldClearinator();
     tryGuess++;
-    var tryLeftText = tryLeft > 2 ?
-    `${tryLeft - 1} tentativas restantes`
+    tryLeft--;
+    var tryLeftText = tryLeft > 1 ?
+    `${tryLeft} tentativas restantes`
     :
     `Essa é sua ÚLTIMA chance`
     var tryText = tryGuess > 1? 
@@ -73,7 +74,6 @@ function checkGuessNumberinator() {
         console.log(`Guessed Number: ${guessedNumber}`);
         console.log(`Tries Left: ${tryLeft}`);
     }
-    tryLeft--;
     logShowinator();
 }
 function fieldClearinator() {
@@ -99,7 +99,7 @@ function restartinator() {
 }
 function triesRestartinator() {
     tryGuess = 0;
-    tryLeft = 7;
+    tryLeft = 6;
 }
 
 

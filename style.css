@@ -49,7 +49,7 @@ body::before {
 }
 
 .container__informacoes {
-    flex: 1;
+    flex-grow: auto;
     padding: 3rem;
 }
 
@@ -92,8 +92,8 @@ body::before {
 
 h1 {
     font-family: 'Chakra Petch', sans-serif;
-    font-size: 72px;
-    padding-bottom: 6rem;
+    font-size: 36px;
+    padding-bottom: 10%;
 }
 
 p,
