@@ -4,10 +4,10 @@
 // paragrafo.innerHTML = `Insira um número de 1 à 100`;
 // console.log(`O número secreto é: ${secretNumber}`)
 let secretArray = [];
-var maxSecretNumber = 200;
+var maxSecretNumber = 100;
 var secretNumber = getRandomNumberinator();
 var tryGuess = 0;
-var tryLeft = 7;
+var tryLeft = 6;
 function showTextScreeninator(tag, texto) {
     var campo = document.querySelector(tag);
     campo.innerHTML = texto;
@@ -15,7 +15,7 @@ function showTextScreeninator(tag, texto) {
 }
 function textRestartinator() {
     showTextScreeninator('h1', 'Jogo do Número Secreto');
-    showTextScreeninator('p', `Escolha um número entre 1 e ${maxSecretNumber}. Você tem 7 tentativas no total!`);
+    showTextScreeninator('p', `Escolha um número entre 1 e ${maxSecretNumber}. Você tem 6 tentativas no total!`);
 }
 textRestartinator();
 function getRandomNumberinator() {
