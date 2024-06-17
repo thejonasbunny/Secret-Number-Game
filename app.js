@@ -103,7 +103,7 @@ function triesRestartinator() {
 }
 
 
-// function wordLenght(word) {
+// unction wordLenght(word) {
 //     var wordCount = word.length
 //     console.log(`Comprimento de ${word} é: ${wordCount}`)
 // }
@@ -115,7 +115,7 @@ function triesRestartinator() {
 // }
 // loopinator(10)
 // function tabuada(x) {
-//     for (let i = 1; i <= 10; i++) {
+//     for (let i = 1; i <= 10; i++) { 
 //     var resultado = x * i;
 //     console.log(`${x} x ${i} = ${resultado}`)
 //     }
