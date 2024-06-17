@@ -103,7 +103,7 @@ function triesRestartinator() {
 }
 
 
-// unction wordLenght(word) {
+// funcrtion wordLenght(word) {
 //     var wordCount = word.length
 //     console.log(`Comprimento de ${word} é: ${wordCount}`)
 // }
